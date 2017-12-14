@@ -1,0 +1,89 @@
+/* Nota -> Essencialmente, um arquivo CSS descreve como elementos especificos do HTML devem se exibidos pelo navegado*/ 
+
+body {
+    margin: 10px auto;
+    width: 1000px;       
+}
+
+.cabecalho{
+    border-top: 1px solid #a4a4a4;  
+    border-bottom: 2px solid #a4a4a4; 
+}
+
+.h1 {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: x-large; 
+    text-align: center; 
+}
+
+/* li */ 
+li {
+    display: inline;
+}
+
+.data_tempo {
+  text-align-last: right; 
+  font-variant-position: sub; 
+
+}
+
+.nav {
+    border-bottom: 1px solid #a4a4a4;  
+}
+
+li {
+    display: inline; 
+    
+}
+
+li:last-child a {
+    margin-left: 0; 
+}
+
+a {
+    outline: none; 
+    text-decoration: none; 
+    display: inline-block;
+    width: 10%; 
+    margin-right: 2%; 
+    text-align: center;
+    line-height: 2;
+    color: black; 
+    font-size: 15px;
+}
+
+a:hover {
+    background: #eeeeee; 
+}
+
+.div_artigos {
+    margin:auto;  
+    padding: 5px;
+    border-bottom: 5px solid #a4a4a4;   
+}
+.borda {
+    margin-top: 2px;; 
+    border-top: 1px solid #f50707 ;
+    overflow: auto;  
+    text-align: center;  
+}
+
+.contato1 {
+    margin-top: 2px;
+    border: 2px solid rgb(220, 10, 10); 
+    float: left;
+    width: 200px;
+}
+.contato2 {
+    margin-top: 2px;
+    border: 2px solid rgb(0, 182, 0); 
+    float: initial;
+    width: 200px;
+}
+.contato3 {
+    margin-top: 2px;
+    border: 2px solid rgb(10, 10, 212); 
+    float: right;
+    width: 200px;
+}
+
